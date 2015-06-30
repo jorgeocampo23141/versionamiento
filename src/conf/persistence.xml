@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="weboraclePU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>modelo.DemoProductInfo</class>
+    <class>modelo.DemoCustomers</class>
+    <class>modelo.ApexWsLinks</class>
+    <class>modelo.DemoOrders</class>
+    <class>modelo.DemoUsers</class>
+    <class>modelo.ApexWsTags</class>
+    <class>modelo.Usuarios</class>
+    <class>modelo.DemoOrderItems</class>
+    <class>modelo.ApexWsRows</class>
+    <class>modelo.Dept</class>
+    <class>modelo.ApexWsNotes</class>
+    <class>modelo.ApexAcl</class>
+    <class>modelo.Emp</class>
+    <class>modelo.ApexWsWebpgSections</class>
+    <class>modelo.ApexWsFiles</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+      <property name="javax.persistence.jdbc.user" value="COMPUMEDBD"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="123"/>
+    </properties>
+  </persistence-unit>
+</persistence>
