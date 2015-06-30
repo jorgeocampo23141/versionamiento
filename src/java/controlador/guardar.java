@@ -56,7 +56,7 @@ public class guardar extends HttpServlet {
         em.persist(usuario); 
         em.flush();
         em.getTransaction().commit();
-        response.sendRedirect("correcta.jsp");
+        response.sendRedirect("correcto.jsp");
         
     }
 
