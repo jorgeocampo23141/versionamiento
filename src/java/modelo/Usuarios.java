@@ -52,7 +52,7 @@ public class Usuarios implements Serializable {
     /**
      *
      * @param nombre
-     * La loca de serna
+     
      * 
      */
     public Usuarios(String nombre) {
