@@ -1,7 +1,7 @@
 <%-- 
     Document   : correcto
     Created on : 23/06/2015, 03:41:32 PM
-    Author     : Jorge Armando Londoño Ocampo
+    Author     : Jorge Armando Londoño Ocampo.
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

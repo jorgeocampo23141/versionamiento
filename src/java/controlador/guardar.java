@@ -28,10 +28,7 @@ public class guardar extends HttpServlet {
      * methods.
      *
      * @param request servlet identifica la respuesta del servlet.java (correcto.jsp) en caso de no haber error en la transacion de datos 
-     * @param response servlet response (argumento que recibe el servlet para ejecutar la transacion)
-     * @throws ServletException. definido asi en caso de error en algun servlet en especifico 
-     * 
-     */
+     * @param response servlet response (argumento que recibe el servlet para ejecutar la transacionG
     
     
     
@@ -60,7 +57,6 @@ public class guardar extends HttpServlet {
         
     }
 
-    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
      *
